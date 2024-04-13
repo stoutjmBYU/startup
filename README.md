@@ -1,3 +1,3 @@
 # startup
 
-My class notes: [startup/notes.md]
+My class notes: [https://github.com/stoutjmBYU/startup/notes.md]
