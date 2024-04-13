@@ -1,1 +1,2 @@
 How's it hanging??? I'm super great fine thanks.
+I realized I was still using my private GitHub account which I wanted to separate from this school project. So I'm testing now that I correctly switched users on my local machine.
