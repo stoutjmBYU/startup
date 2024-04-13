@@ -1,3 +1,3 @@
 # startup
 
-It begins.
+My class notes: startup/notes.md
