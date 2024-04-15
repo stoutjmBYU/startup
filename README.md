@@ -1,5 +1,6 @@
 # Bottle Rocket
-[http://bottlerocket260.click]
+bottlerocket260.click
+
 My notes: [Notes](https://github.com/stoutjmBYU/startup/blob/main/notes.md)
 
 ## Specification Deliverable
