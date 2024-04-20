@@ -31,3 +31,7 @@ JavaScript - Login, button functionality, sending score to the database, display
 - DB/Login - Store users and scores in database. Register and login users. Credentials securely stored in database.
 - WebSocket - After a user finishes one round, their score is broadcast to all other active users.
 - React - Application ported to use the React web framework.
+
+---
+
+## HTML Deliverable
