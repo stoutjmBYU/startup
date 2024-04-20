@@ -1,5 +1,5 @@
 # Bottle Rocket
-bottlerocket260.click
+[Website](https://260rocket.click/)
 
 My notes: [Notes](https://github.com/stoutjmBYU/startup/blob/main/notes.md)
 
