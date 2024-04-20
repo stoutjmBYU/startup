@@ -35,3 +35,6 @@ JavaScript - Login, button functionality, sending score to the database, display
 ---
 
 ## HTML Deliverable
+
+I added my first html files, added the deployment script. Used CodePen to turn the Simon projects stuff into my own project.
+Also basically just made my whole development pipeline easier to understand, I've saved important lines of code in my local notes (not github ones) and everything up to this point is working smoothly.
