@@ -40,3 +40,14 @@ JavaScript - Login, button functionality, sending score to the database, display
 
 I added my first html files, added the deployment script. Used CodePen to turn the Simon projects stuff into my own project.
 Also basically just made my whole development pipeline easier to understand, I've saved important lines of code in my local notes (not github ones) and everything up to this point is working smoothly.
+
+---
+
+## CSS Deliverable
+For this deliverable I styled my application to have a flashy red and white look fitting for a rocket.
+ - [x] Header, footer, and main content body
+ - [x] Navigation elements - I set the colors to black instead of blue and removed the underlines.
+ - [x] Responsive to window resizing - I implemented dynamic fitting with flex.
+ - [x] Application elements - Used good contrast and whitespace
+ - [x] Application text content - Consistent fonts
+ - [x] Application images - I included the trademark image from the example project as well as a rocket ship placeholder image from google. I drew my own rocket ship, but I don't want to upload it to github so I'm waiting until the database part of the project.
