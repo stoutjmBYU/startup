@@ -1,11 +1,14 @@
 # Bottle Rocket
+---
 [Website](https://260rocket.click/)
 
 My notes: [Notes](https://github.com/stoutjmBYU/startup/blob/main/notes.md)
 
 [Voter Example README from class](https://github.com/webprogramming260/startup-example)
 
+
 ## Specification Deliverable
+---
 A simply satisfying game where users click an image of a rocket ship as many times as they can in 5 seconds and then it blasts off. Using two simple animations the game will be fun enough to play a few times. The leaderboard shown at the end gives players a challenge, and will inspire friends to compete with each other as well.
 
 ### Design 
@@ -34,16 +37,15 @@ JavaScript - Login, button functionality, sending score to the database, display
 - WebSocket - After a user finishes one round, their score is broadcast to all other active users.
 - React - Application ported to use the React web framework.
 
----
 
 ## HTML Deliverable
-
+---
 I added my first html files, added the deployment script. Used CodePen to turn the Simon projects stuff into my own project.
 Also basically just made my whole development pipeline easier to understand, I've saved important lines of code in my local notes (not github ones) and everything up to this point is working smoothly.
 
----
 
 ## CSS Deliverable
+---
 For this deliverable I styled my application to have a flashy red and white look fitting for a rocket.
  - [x] Header, footer, and main content body
  - [x] Navigation elements - I set the colors to black instead of blue and removed the underlines.
