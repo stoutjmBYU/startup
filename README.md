@@ -3,6 +3,8 @@
 
 My notes: [Notes](https://github.com/stoutjmBYU/startup/blob/main/notes.md)
 
+[Voter Example README from class](https://github.com/webprogramming260/startup-example)
+
 ## Specification Deliverable
 A simply satisfying game where users click an image of a rocket ship as many times as they can in 5 seconds and then it blasts off. Using two simple animations the game will be fun enough to play a few times. The leaderboard shown at the end gives players a challenge, and will inspire friends to compete with each other as well.
 
