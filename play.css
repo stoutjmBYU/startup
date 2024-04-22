@@ -60,3 +60,7 @@ body {
   .body-style {
     background-color: red;
   }
+
+  button a {
+      align-self: right;
+  }
