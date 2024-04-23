@@ -6,8 +6,8 @@
 - [Default 260 Page](https://260rocket.click/)
 
 ### Important Links
-[My notes](https://github.com/stoutjmBYU/startup/blob/main/notes.md)
-[Voter Example README from class](https://github.com/webprogramming260/startup-example)
+- [My notes](https://github.com/stoutjmBYU/startup/blob/main/notes.md)
+- [Voter Example README from class](https://github.com/webprogramming260/startup-example)
 
 
 ## Specification Deliverable
