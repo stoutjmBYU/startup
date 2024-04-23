@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>260Rocket HTML</title>
     <link rel="icon" href="favicon.ico" />
+
     <link rel="stylesheet" href="play.css" />
 
     <!-- Include bootstrap CSS framework -->
@@ -52,7 +53,7 @@
           <header>
             <h2>
               Current Player:
-              <span class="player-name">Mystery player</span>
+              <span class="player-name"></span>
             </h2>
           </header>
         </div>
@@ -63,6 +64,9 @@
 
       <br />
 
+    <!-- html makes an instance of my game class -->
+    <div class="game">
+      <!-- Add buttons that the game class can interact with. -->
       <div>
         <button>INCREASE PRESSURE</button>
         <br />
@@ -76,13 +80,16 @@
         <br />
       </div>
     </main>
-          
+    </div>
+
     <footer class="header-style">
       <div class="container-fluid">
       <span class="text-name">John Stout</span>
       <a class="nav-link active" href="https://github.com/stoutjmBYU/startup">260Rocket GitHub</a>
       </div>
   </footer>
+
+  <script src="play.js"></script>
 
   </body>
 
