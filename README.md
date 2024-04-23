@@ -1,9 +1,14 @@
 # Bottle Rocket
-[Website](https://260rocket.click/)
 
-My notes: [Notes](https://github.com/stoutjmBYU/startup/blob/main/notes.md)
+### My Website
+- [260Rocket - My Startup Project](https://startup.260rocket.click/)
+- [Simon - My most recently deployed version](https://simon.260rocket.click/)
+- [Default 260 Page](https://260rocket.click/)
 
-[Voter Example README from class](https://github.com/webprogramming260/startup-example)
+### Important Links
+- [My notes](https://github.com/stoutjmBYU/startup/blob/main/notes.md)
+- [Voter Example README from class](https://github.com/webprogramming260/startup-example)
+
 
 ## Specification Deliverable
 A simply satisfying game where users click an image of a rocket ship as many times as they can in 5 seconds and then it blasts off. Using two simple animations the game will be fun enough to play a few times. The leaderboard shown at the end gives players a challenge, and will inspire friends to compete with each other as well.
@@ -34,9 +39,21 @@ JavaScript - Login, button functionality, sending score to the database, display
 - WebSocket - After a user finishes one round, their score is broadcast to all other active users.
 - React - Application ported to use the React web framework.
 
----
 
 ## HTML Deliverable
-
 I added my first html files, added the deployment script. Used CodePen to turn the Simon projects stuff into my own project.
 Also basically just made my whole development pipeline easier to understand, I've saved important lines of code in my local notes (not github ones) and everything up to this point is working smoothly.
+
+
+## CSS Deliverable
+For this deliverable I styled my application to have a flashy red and white look fitting for a rocket.
+ - [x] Header, footer, and main content body
+ - [x] Navigation elements - I set the colors to black instead of blue and removed the underlines.
+ - [x] Responsive to window resizing - I implemented dynamic fitting with flex.
+ - [x] Application elements - Used good contrast and whitespace
+ - [x] Application text content - Consistent fonts
+ - [x] Application images - I included the trademark image from the example project as well as a rocket ship placeholder image from google. I drew my own rocket ship, but I don't want to upload it to github so I'm waiting until the database part of the project.
+
+## JavaScript Deliverable
+I've deployed the JavaScript version of Simon now! HTML, CSS, and JavaScript all down.
+- [ ] Putting in the JavaScript for my own implementation should be rather quick at this point since my program doesn't do anything too crazy.
