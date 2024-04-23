@@ -1,7 +1,7 @@
 # Bottle Rocket
 [Website](https://260rocket.click/)
 
-My notes: [Notes](https://github.com/stoutjmBYU/startup/blob/main/notes.md)
+[My notes](https://github.com/stoutjmBYU/startup/blob/main/notes.md)
 
 [Voter Example README from class](https://github.com/webprogramming260/startup-example)
 
