@@ -1,11 +1,11 @@
 # Bottle Rocket
 
+[My notes](https://github.com/stoutjmBYU/startup/blob/main/notes.md)
+
 #### My Website
 - [260Rocket - My Startup Project](https://startup.260rocket.click/)
 - [Simon - My most recently deployed version](https://simon.260rocket.click/)
 - [Default 260 Page](https://260rocket.click/)
-
-[My notes](https://github.com/stoutjmBYU/startup/blob/main/notes.md)
 
 [Voter Example README from class](https://github.com/webprogramming260/startup-example)
 
