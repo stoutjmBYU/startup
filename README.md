@@ -56,9 +56,8 @@ For this deliverable I styled my application to have a flashy red and white look
 
 ## JavaScript Deliverable
 I've deployed the JavaScript version of Simon now! HTML, CSS, and JavaScript all down.
-- [ ] Putting in the JavaScript for my own implementation should be rather quick at this point since my program doesn't do anything too crazy.
 
-- [ ] Login - implemeneted, and the play page remembers the name you entered.
-- [ ] Logic - The clicker works and the number of times they press it is saved with their name into the data base. I also have the 5 second timer disable the button when it is done and the instructions changing to post game instructions to give a sense of the game wrapping up.
-- [ ] Database - using local storage, will be replaced with an AWS data base later.
-- [ ] Websocket - The scores page represents websocket use as I plan to make it update for all users whenever a new score is entered.
+- [x] Login - implemeneted, and the play page remembers the name you entered.
+- [x] Logic - The clicker works and the number of times they press it is saved with their name into the data base. I also have the 5 second timer disable the button when it is done and the instructions changing to post game instructions to give a sense of the game wrapping up.
+- [x] Database - using local storage, will be replaced with an AWS data base later.
+- [x] Websocket - The scores page represents websocket use as I plan to make it update for all users whenever a new score is entered.
