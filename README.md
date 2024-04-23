@@ -49,3 +49,7 @@ For this deliverable I styled my application to have a flashy red and white look
  - [x] Application elements - Used good contrast and whitespace
  - [x] Application text content - Consistent fonts
  - [x] Application images - I included the trademark image from the example project as well as a rocket ship placeholder image from google. I drew my own rocket ship, but I don't want to upload it to github so I'm waiting until the database part of the project.
+
+## JavaScript Deliverable
+I've deployed the JavaScript version of Simon now! HTML, CSS, and JavaScript all down.
+- [ ] Putting in the JavaScript for my own implementation should be rather quick at this point since my program doesn't do anything too crazy.
