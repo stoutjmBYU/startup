@@ -61,3 +61,12 @@ I've deployed the JavaScript version of Simon now! HTML, CSS, and JavaScript all
 - [x] Logic - The clicker works and the number of times they press it is saved with their name into the data base. I also have the 5 second timer disable the button when it is done and the instructions changing to post game instructions to give a sense of the game wrapping up.
 - [x] Database - using local storage, will be replaced with an AWS data base later.
 - [x] Websocket - The scores page represents websocket use as I plan to make it update for all users whenever a new score is entered.
+
+## Service Deliverable
+I kept it quite simple. Backend server endpoints will save and load scores for players. I used the same 3rd party end point as the example code for generating a random quote everytime you check the score boards. Even though I was doing basically the same thing as the example code, I didn't want to write any lines I didn't understand. So it still took me longer than I anticipated to figure it out.
+I would've liked to have an endpoint which told you your global ranking, but I didn't have time for that.
+- [x] Node.js/Express HTTP service - done!
+- [x] Static middleware for frontend
+- [x] Calls to a third party endpoint - quotes
+- [x] Backend service endpoints - saving scores, loading scores.
+- [x] Frontend service endpoint
