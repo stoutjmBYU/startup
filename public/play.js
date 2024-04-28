@@ -42,19 +42,34 @@ class Game {
         this.saveScore();
     }
 
-    saveScore(score) {
+    // Handles both online and offline
+    async saveScore(score) {
         const userName = this.getPlayerName();
         let scores = [];
         const scoresText = localStorage.getItem('scores');
         if (scoresText) {
           scores = JSON.parse(scoresText);
         }
-        scores = this.updateScores(userName, this.score, scores);
-    
-        localStorage.setItem('scores', JSON.stringify(scores));
+
+        // Service save score if online
+        try {
+          const response = await fetch('/api/score', {
+            method: 'POST',
+            headers: {'content-type': 'application/json'},
+            body: JSON.stringify(newScore),
+          });
+
+          // Stores server response as high score.
+          const scores = await reponse.json();
+          localStorage.setItem('scores', JSON.stringify(scores));
+        } catch {
+          // When fail to save online, save offline for now.
+          this.updateScoresLocal(userName, this.score, scores);
+        }
+        // TODO catch then save local
       }
     
-      updateScores(userName, score, scores) {
+      updateScoresLocal(userName, score, scores) {
         const date = new Date().toLocaleDateString();
         const newScore = { name: userName, score: score, date: date };
     
@@ -75,7 +90,7 @@ class Game {
           scores.length = 10;
         }
     
-        return scores;
+        localStorage.setItem('scores', JSON.stringify(scores));
       }
 }
 
