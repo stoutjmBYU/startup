@@ -57,11 +57,13 @@ class Game {
           });
 
           // Stores server response as high score.
-          const scores = await reponse.json();
+          const scores = await response.json();
           localStorage.setItem('scores', JSON.stringify(scores));
+          console.log('Successfully saved service score.')
         } catch {
           // When fail to save online, save offline for now.
           this.updateScoresLocal(newScore);
+          console.log('Failed to use save service. Saved score locally only.')
         }
       }
     

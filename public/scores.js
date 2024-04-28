@@ -7,7 +7,9 @@ async function loadScores() {
   
       // Save the scores in case we go offline in the future
       localStorage.setItem('scores', JSON.stringify(scores));
+      console.log('Loaded service scores successfully.')
     } catch {
+      console.log('Failed to load service scores. Load local scores.')
       // If there was an error then just use the last saved scores
       const scoresText = localStorage.getItem('scores');
       if (scoresText) {
@@ -25,4 +27,24 @@ function displayScore(score_record) {
     highScoresList.appendChild(newItem);
 }
   
+function displayQuote(data) {
+  fetch('https://api.quotable.io/random')
+    .then((response) => response.json())
+    .then((data) => {
+      const containerEl = document.querySelector('#quote');
+
+      const quoteEl = document.createElement('p');
+      quoteEl.classList.add('quote');
+      const authorEl = document.createElement('p');
+      authorEl.classList.add('author');
+
+      quoteEl.textContent = data.content;
+      authorEl.textContent = data.author;
+
+      containerEl.appendChild(quoteEl);
+      containerEl.appendChild(authorEl);
+    });
+}
+
 loadScores();
+displayQuote();
