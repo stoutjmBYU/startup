@@ -1,0 +1,15 @@
+{
+  "name": "startup",
+  "version": "1.0.0",
+  "description": "- [260Rocket - My Startup Project](https://startup.260rocket.click/)\r - [Simon - My most recently deployed version](https://simon.260rocket.click/)\r - [Default 260 Page](https://260rocket.click/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
