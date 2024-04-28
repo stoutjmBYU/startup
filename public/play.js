@@ -45,11 +45,8 @@ class Game {
     // Handles both online and offline
     async saveScore(score) {
         const userName = this.getPlayerName();
-        let scores = [];
-        const scoresText = localStorage.getItem('scores');
-        if (scoresText) {
-          scores = JSON.parse(scoresText);
-        }
+        const date = new Date().toLocaleDateString();
+        const newScore = { name: userName, score: this.score, date: date };
 
         // Service save score if online
         try {
@@ -64,18 +61,20 @@ class Game {
           localStorage.setItem('scores', JSON.stringify(scores));
         } catch {
           // When fail to save online, save offline for now.
-          this.updateScoresLocal(userName, this.score, scores);
+          this.updateScoresLocal(newScore);
         }
-        // TODO catch then save local
       }
     
-      updateScoresLocal(userName, score, scores) {
-        const date = new Date().toLocaleDateString();
-        const newScore = { name: userName, score: score, date: date };
-    
+      updateScoresLocal(newScore) {
+        let scores = [];
+        const scoresText = localStorage.getItem('scores');
+        if (scoresText) {
+          scores = JSON.parse(scoresText);
+        }
+
         let found = false;
         for (const [i, prevScore] of scores.entries()) {
-          if (score > prevScore.score) {
+          if (newScore > prevScore.score) {
             scores.splice(i, 0, newScore);
             found = true;
             break;
