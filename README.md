@@ -70,3 +70,11 @@ I would've liked to have an endpoint which told you your global ranking, but I d
 - [x] Calls to a third party endpoint - quotes
 - [x] Backend service endpoints - saving scores, loading scores.
 - [x] Frontend service endpoint
+
+## Login Deliverable
+I thought this would go a lot faster.
+- [x] Supports new user registration
+- [x] Supports existing user authentication and logout
+- [x] Stores application data in MongoDB
+- [x] Stores and retrieves credentials in MongoDB
+- [x] Restricts application functionality based upon authentication (users can still play the game without logging in, but their score is not saved, and they can't see the global score boards.
